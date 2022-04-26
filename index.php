@@ -31,13 +31,7 @@
         }
     }
     
-    route('/home', function(){
-        include('pages/home.php');
-    });
-
-    route('/coba', function(){
-        echo "aing maung";
-    });
+    include 'routes/web.php';
 
     execute();
 ?>
